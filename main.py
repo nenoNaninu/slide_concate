@@ -33,4 +33,4 @@ if __name__ == '__main__':
 
             buffer[i * height:(i + 1) * height, j * width: (j + 1) * width, :] = img
 
-    cv2.imwrite("big.png", buffer)
+    cv2.imwrite(save_name, buffer)
